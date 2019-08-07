@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--红方 -->
+    <GridView
+        android:id="@+id/red_grv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="5"
+        android:layout_weight="1"></GridView>
+
+    <LinearLayout
+        android:id="@+id/game_center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:text="123"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <!-- 蓝方 -->
+    <GridView
+        android:numColumns="5"
+        android:id="@+id/blue_grv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></GridView>
+</LinearLayout>
